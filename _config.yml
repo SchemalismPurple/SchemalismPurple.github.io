@@ -63,6 +63,8 @@ analytics:
     tracking_id: "G-86PWN7CSSN"
     anonymize_ip: false # default
 
+google_site_verification: "QqgkwWtLUy0rlCTQqrTeL_TNjKCgBBLiOtlLTOpN9ME"
+
 author:
   name   : "yoonhwan"
   # avatar : "/assets/images/logo.png"
