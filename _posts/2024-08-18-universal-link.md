@@ -1,14 +1,14 @@
 ---
-title: "Universal Link"
+title: "Universal Link (Applink)"
 last_modified_at: 2024-08-18T16:20:02-05:00
 categories:
-  - iOS
-  - a
-  - b
+  - deeplink
 tags:
   - ios
+  - android
+  - universal link
+  - applink
   - deeplink
-  - deferred
 ---
 
 This post has been updated and should show a modified date if used in a layout.
