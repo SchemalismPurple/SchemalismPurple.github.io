@@ -19,9 +19,9 @@ name: yoonhwan
 email: legogo1992@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   schemalism developer yoonhwan's devlog
-twitter_username: username
+# twitter_username: username
 github_username: SchemalismPurple
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: default
 search: true
 
 # Build settings
@@ -57,6 +57,12 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-86PWN7CSSN"
+    anonymize_ip: false # default
+
 author:
   name   : "yoonhwan"
   # avatar : "/assets/images/logo.png"
@@ -91,7 +97,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -107,3 +113,13 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
